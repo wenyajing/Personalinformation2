@@ -2626,3 +2626,33 @@
   word-wrap:break-word;
   text-transform:none;
 }
+#u1608_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:17px;
+  height:17px;
+}
+#u1608 {
+  border-width:0px;
+  position:absolute;
+  left:80px;
+  top:208px;
+  width:17px;
+  height:17px;
+  display:flex;
+}
+#u1608 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u1608_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
