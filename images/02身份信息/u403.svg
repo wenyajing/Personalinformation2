@@ -1,1 +1,9 @@
-<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="18500" height="128" width="128"><path d="M512 102.4a409.6 409.6 0 1 0 409.6 409.6 409.6 409.6 0 0 0-409.6-409.6z m181.248 518.144a51.2 51.2 0 0 1-72.704 72.704L512 584.192l-108.544 109.056a51.2 51.2 0 0 1-72.704-72.704L439.808 512 330.752 403.456a51.2 51.2 0 0 1 72.704-72.704L512 439.808l108.544-109.056a51.2 51.2 0 0 1 72.704 72.704L584.192 512z" fill="" p-id="18501"></path></svg>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="60px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -883 -455 )">
+    <path d="M 883 455  L 943 455  L 943 515  L 883 515  L 883 455  " fill-rule="nonzero" fill="#cccccc" stroke="none" />
+    <path d="M 887 459  L 939 459  L 939 511  L 887 511  L 887 459  " fill-rule="nonzero" fill="#ffffff" stroke="none" />
+    <path d="M 918.7 473  C 916.18 473  914.2 471.02  914.2 468.5  C 914.2 465.98  916.18 464  918.7 464  C 921.22 464  923.2 465.98  923.2 468.5  C 923.2 471.02  921.22 473  918.7 473  " fill-rule="nonzero" fill="#cccccc" stroke="none" />
+    <path d="M 889 510  L 889 483.05  L 901.25 470.8  L 918.4 480.6  L 928.2 478.15  L 938 480.6  L 938 510  L 889 510  " fill-rule="nonzero" fill="#169bd5" stroke="none" />
+  </g>
+</svg>
