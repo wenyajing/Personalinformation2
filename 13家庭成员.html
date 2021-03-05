@@ -605,7 +605,7 @@
       <div id="u1751" class="ax_default _文本段落">
         <div id="u1751_div" class=""></div>
         <div id="u1751_text" class="text ">
-          <p><span>填写说明：弹框显示</span></p><p><span>显示字段：‘姓名’、‘关系’、‘性别’、‘工作于新奥’</span></p><p><span>新增进入（只有保存按钮）、编辑进入（有保存、删除按钮）</span></p>
+          <p><span>填写说明：弹框显示</span></p><p><span>显示字段：‘姓名’、‘关系’、‘性别’、</span><span style="color:#A30014;">‘工作于新奥’（显示是否工作于新奥：先判断工作于新奥如果=‘’，显示为‘否’；如果工作于新奥=‘是’。再判断次家庭成员在t_employee表active，如果active=1在职，显示为‘是’，如果active=0，显示为‘否’）</span></p><p><span>新增进入（只有保存按钮）、编辑进入（有保存、删除按钮）</span></p>
         </div>
       </div>
 
@@ -621,7 +621,7 @@
       <div id="u1753" class="ax_default _文本段落">
         <div id="u1753_div" class=""></div>
         <div id="u1753_text" class="text ">
-          <p><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC', sans-serif;font-weight:500;">删除时判断：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、判断如果类型为正式工，删除最后一条家庭成员，提示信息‘至少需保留一位家庭成员’；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">2、家庭成员为“是否关系进人=是”的数据删除时判断：判断员工来源，如果员工来源=关系进人，则不允许删除；如果员工来源不为关系进人，则允许删除；无需此判断，非外部关系且为关系进人推荐人，均为新奥亲属</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">3、是否工作于新奥=是，不允许删除。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">4、如果删除的是配偶，判断婚姻状况，如果为‘已婚’，弹出提示框，“您当前的婚姻状态为已婚。如果删除，您的婚姻状态将同步改为未婚，请确认”；如果是‘未婚’，不提示。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC', sans-serif;font-weight:500;">编辑、编辑时判断：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、是否工作于新奥不允许是变为否，提示信息‘此家庭成员工作于新奥，不允许修改’；否变是的话，邮件通知人力；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、关系为配偶的，年龄不能小于16岁（不包括16岁），关系为子女的，年龄不能大于60岁（不包括60岁），关系为父母及其他家庭成员的，年龄不能大于100岁（不包括100岁）</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">2、员工性别为女，配偶性别自动带出男，不可编辑；员工性别为男，配偶性别自动带出女，不可编辑；父亲、祖父、外祖父、配偶的父亲、配偶的祖父、配偶的外祖父，自动带出男，不可编辑；母亲、祖母、外祖母、配偶的母亲、配偶的祖母、配偶的外祖母，自动带出女，不可编辑；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">3、婚姻状况如果为未婚，新增或编辑为配偶时，则提示并且婚姻状况同步更改为已婚</span></p>
+          <p><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC', sans-serif;font-weight:500;">删除时判断：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、判断如果类型为正式工（员工的工作合同为02、03、04、09），删除最后一条家庭成员，提示信息‘至少需保留一位家庭成员’；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">2、家庭成员为“是否关系进人=是”的数据删除时判断：判断员工来源，如果员工来源=关系进人，则不允许删除；如果员工来源不为关系进人，则允许删除；无需此判断，非外部关系且为关系进人推荐人，均为新奥亲属</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">3、是否工作于新奥=是，不允许删除。</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#A30014;">（员工来源如何取值？）</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">4、如果删除的是配偶，判断婚姻状况，如果为‘已婚’，弹出提示框，“您当前的婚姻状态为已婚。如果删除，您的婚姻状态将同步改为未婚，请确认”；如果是‘未婚’，不提示。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC', sans-serif;font-weight:500;">编辑、编辑时判断：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、是否工作于新奥不允许是变为否，提示信息‘此家庭成员工作于新奥，不允许修改’；否变是的话，邮件通知人力；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、关系为配偶的，年龄不能小于16岁（不包括16岁），关系为子女的，年龄不能大于60岁（不包括60岁），关系为父母及其他家庭成员的，年龄不能大于100岁（不包括100岁）</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">2、员工性别为女，配偶性别自动带出男，不可编辑；员工性别为男，配偶性别自动带出女，不可编辑；父亲、祖父、外祖父、配偶的父亲、配偶的祖父、配偶的外祖父，自动带出男，不可编辑；母亲、祖母、外祖母、配偶的母亲、配偶的祖母、配偶的外祖母，自动带出女，不可编辑；</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">3、婚姻状况如果为未婚，新增或编辑为配偶时，则提示并且婚姻状况同步更改为已婚</span></p>
         </div>
       </div>
 
@@ -637,7 +637,7 @@
       <div id="u1755" class="ax_default _文本段落">
         <div id="u1755_div" class=""></div>
         <div id="u1755_text" class="text ">
-          <p><span>关系：不展示‘外部关系’。（</span><span style="color:#D9001B;">没有字典表，如右图</span><span>）</span></p><p><span>工作于新奥：是、否（工作于新奥-X，不工作于新奥=‘’）</span></p><p><span>性别：男、女（男-1，女-2）</span></p><p><span>国籍：（t_sap_basicdate中CODE_TYPE为0025的CODE_ID和CODE_DESCRIPTION）</span></p>
+          <p><span>关系：不展示‘外部关系’。（</span><span style="color:#D9001B;">没有字典表，如右图，人才激发新建字典表</span><span>）</span></p><p><span>工作于新奥：是、否（工作于新奥-X，不工作于新奥=‘’）</span></p><p><span>性别：男、女（男-1，女-2）</span></p><p><span>国籍：（t_sap_basicdate中CODE_TYPE为0025的CODE_ID和CODE_DESCRIPTION）</span></p>
         </div>
       </div>
 

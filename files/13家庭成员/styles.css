@@ -4,7 +4,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:2882px;
+  width:3059px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -2458,7 +2458,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:597px;
+  width:790px;
   height:845px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
@@ -2476,7 +2476,7 @@
   position:absolute;
   left:1809px;
   top:63px;
-  width:597px;
+  width:790px;
   height:845px;
   display:flex;
 }
@@ -2582,8 +2582,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:417px;
-  height:54px;
+  width:759px;
+  height:72px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -2600,8 +2600,8 @@
   position:absolute;
   left:1829px;
   top:104px;
-  width:417px;
-  height:54px;
+  width:759px;
+  height:72px;
   display:flex;
   font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
   font-weight:400;
@@ -2641,7 +2641,7 @@
   border-width:0px;
   position:absolute;
   left:1829px;
-  top:178px;
+  top:216px;
   width:190px;
   height:25px;
   display:flex;
@@ -2666,8 +2666,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:552px;
-  height:392px;
+  width:681px;
+  height:307px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -2682,9 +2682,9 @@
   border-width:0px;
   position:absolute;
   left:1843px;
-  top:360px;
-  width:552px;
-  height:392px;
+  top:398px;
+  width:681px;
+  height:307px;
   display:flex;
   font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC', sans-serif;
   font-style:normal;
@@ -2724,7 +2724,7 @@
   border-width:0px;
   position:absolute;
   left:1843px;
-  top:203px;
+  top:241px;
   width:81px;
   height:22px;
   display:flex;
@@ -2767,7 +2767,7 @@
   border-width:0px;
   position:absolute;
   left:1849px;
-  top:228px;
+  top:266px;
   width:479px;
   height:90px;
   display:flex;
@@ -2810,7 +2810,7 @@
   border-width:0px;
   position:absolute;
   left:1843px;
-  top:334px;
+  top:372px;
   width:65px;
   height:22px;
   display:flex;
@@ -5191,8 +5191,8 @@
 #u1827 {
   border-width:0px;
   position:absolute;
-  left:2449px;
-  top:63px;
+  left:2626px;
+  top:60px;
   width:433px;
   height:571px;
   display:flex;
